@@ -1,10 +1,12 @@
 import React from 'react'
+import img20 from "../assets/img/Group 37.png"
+
 
 const Nav = () => {
   return (
     <nav>
           <div>
-            <img src="/src/img/Group 37.png" alt="" />
+            <img src={img20} alt="" />
           </div>
           <ul>
             <li>Home</li>

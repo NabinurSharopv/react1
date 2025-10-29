@@ -1,5 +1,5 @@
 import React from 'react'
-
+import img2 from "../assets/img/img2.png"
 const Section1 = () => {
   return (
     <div className="pej1">
@@ -10,7 +10,7 @@ const Section1 = () => {
          <button className="btn3">Talk to us</button>
        </div>
        <div className="div2">
-       <img src="./src/img/img2.png" alt="" />
+       <img src={img2} alt="" />
        </div>
     </div>
   )

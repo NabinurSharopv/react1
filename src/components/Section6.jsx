@@ -1,4 +1,6 @@
 import React from 'react'
+import img19 from "../assets/img/img19.png"
+
 
 const Section6 = () => {
   return (
@@ -9,7 +11,7 @@ const Section6 = () => {
       <button className="btn5">View Hub</button>
       </div>
       <div>
-        <img src="./src/img/img19.png" alt="" />
+        <img src={img19} alt="" />
       </div>
     </div>
   )
